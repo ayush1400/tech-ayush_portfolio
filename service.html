@@ -1,300 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
+    <!-- 
     - primary meta tags
   -->
-  <title>Annie | Services</title>
-  <meta name="title" content="Annie | Services">
-  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+    <title>Ayush | Services</title>
+    <meta name="title" content="Ayush | Services" />
+    <meta
+      name="description"
+      content="This is a personal portfolio html template made by codewithsadee"
+    />
 
-  <!-- 
+    <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
 
-  <!-- 
+    <!-- 
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- 
+    <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/require.css">
-  <link rel="stylesheet" href="./assets/css/pages/service.css">
+    <link rel="stylesheet" href="./assets/css/require.css" />
+    <link rel="stylesheet" href="./assets/css/pages/service.css" />
+  </head>
 
-</head>
-
-<body>
-
-  <!-- 
+  <body>
+    <!-- 
     - #PRELOADER
   -->
 
-  <div class="preloader" data-preloader>
-    <div class="preloader-circle"></div>
-  </div>
+    <div class="preloader" data-preloader>
+      <div class="preloader-circle"></div>
+    </div>
 
-
-
-
-
-  <!-- 
+    <!-- 
     - #HEADER
   -->
 
-  <header class="header" data-header>
-    <div class="container">
+    <header class="header" data-header>
+      <div class="container">
+        <a href="./index.html" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="151"
+            height="28"
+            alt="Annie home"
+          />
+        </a>
 
-      <a href="./index.html" class="logo">
-        <img src="./assets/images/logo.svg" width="151" height="28" alt="Annie home">
-      </a>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="./index.html" class="label-lg navbar-link has-after"
+                >Home</a
+              >
+            </li>
 
-      <nav class="navbar" data-navbar>
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#" class="label-lg navbar-link has-after active"
+                >Services</a
+              >
+            </li>
 
-          <li class="navbar-item">
-            <a href="./index.html" class="label-lg navbar-link has-after">Home</a>
-          </li>
+            <li class="navbar-item">
+              <a href="./portfolio.html" class="label-lg navbar-link has-after"
+                >Portfolio</a
+              >
+            </li>
 
-          <li class="navbar-item">
-            <a href="#" class="label-lg navbar-link has-after active">Services</a>
-          </li>
+            <li class="navbar-item">
+              <a href="./contact.html" class="label-lg navbar-link has-after"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-          <li class="navbar-item">
-            <a href="./portfolio.html" class="label-lg navbar-link has-after">Portfolio</a>
-          </li>
+        <a href="./contact.html" class="btn btn-primary">Contact Now</a>
 
-          <li class="navbar-item">
-            <a href="./contact.html" class="label-lg navbar-link has-after">Contact</a>
-          </li>
+        <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </header>
 
-        </ul>
-      </nav>
-
-      <a href="./contact.html" class="btn btn-primary">Contact Now</a>
-
-      <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-      </button>
-
-    </div>
-  </header>
-
-
-
-
-
-  <main>
-    <article>
-
-      <!-- 
+    <main>
+      <article>
+        <!-- 
         - #SERVICE
       -->
 
-      <section class="section service has-bg-image" aria-labelledby="service-label"
-        style="background-image: url('./assets/images/service-bg.png')">
-        <div class="container">
+        <section
+          class="section service has-bg-image"
+          aria-labelledby="service-label"
+          style="background-image: url('./assets/images/service-bg.png')"
+        >
+          <div class="container">
+            <h2
+              class="section-title headline-md text-center"
+              id="service-label"
+            >
+              My Services
+            </h2>
 
-          <h2 class="section-title headline-md text-center" id="service-label">My Services</h2>
+            <ul class="service-list">
+              <!-- ── DATA ANALYST SERVICES ── -->
 
-          <ul class="service-list">
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: hsl(195, 80%, 75%)"
+                >
+                  <div class="card-media">
+                    <ion-icon
+                      name="bar-chart-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
 
-            <li class="card-container">
-              <div class="card card-md" style="background-color: hsl(177, 39%, 72%)">
+                  <div>
+                    <h3 class="card-title title-sm">Data Analysis</h3>
 
-                <div class="card-media">
-                  <ion-icon name="phone-portrait-outline" aria-hidden="true"></ion-icon>
+                    <p class="body-sm">
+                      Transforming raw datasets into clear, actionable insights
+                      using statistical analysis and exploratory data
+                      techniques.
+                    </p>
+                  </div>
                 </div>
+              </li>
 
-                <div>
-                  <h3 class="card-title title-sm">Web Design</h3>
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: hsl(221, 100%, 79%)"
+                >
+                  <div class="card-media">
+                    <ion-icon
+                      name="stats-chart-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
 
-                  <p class="body-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                  </p>
+                  <div>
+                    <h3 class="card-title title-sm">Data Visualization</h3>
+
+                    <p class="body-sm">
+                      Building interactive dashboards and compelling charts
+                      using Power BI, Tableau, and Python libraries like
+                      Matplotlib and Plotly.
+                    </p>
+                  </div>
                 </div>
+              </li>
 
-              </div>
-            </li>
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: hsl(245, 100%, 85%)"
+                >
+                  <div class="card-media">
+                    <ion-icon
+                      name="hardware-chip-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
 
-            <li class="card-container">
-              <div class="card card-md" style="background-color: hsl(41, 99%, 64%)">
+                  <div>
+                    <h3 class="card-title title-sm">Machine Learning</h3>
 
-                <div class="card-media">
-                  <ion-icon name="laptop-outline" aria-hidden="true"></ion-icon>
+                    <p class="body-sm">
+                      Developing predictive models and AI-driven solutions using
+                      Scikit-learn, TensorFlow, and XGBoost to solve real
+                      business problems.
+                    </p>
+                  </div>
                 </div>
+              </li>
 
-                <div>
-                  <h3 class="card-title title-sm">Development</h3>
+              <!-- ── DEVELOPER SERVICES ── -->
 
-                  <p class="body-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                  </p>
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: hsl(142, 55%, 72%)"
+                >
+                  <div class="card-media">
+                    <ion-icon
+                      name="phone-portrait-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="card-title title-sm">Web Development</h3>
+
+                    <p class="body-sm">
+                      Crafting responsive, fast, and modern websites using HTML,
+                      CSS, JavaScript, and React with pixel-perfect attention to
+                      detail.
+                    </p>
+                  </div>
                 </div>
+              </li>
 
-              </div>
-            </li>
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: hsl(41, 99%, 70%)"
+                >
+                  <div class="card-media">
+                    <ion-icon
+                      name="code-slash-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
 
-            <li class="card-container">
-              <div class="card card-md" style="background-color: hsl(19, 97%, 85%)">
+                  <div>
+                    <h3 class="card-title title-sm">Backend & API</h3>
 
-                <div class="card-media">
-                  <ion-icon name="stats-chart-outline" aria-hidden="true"></ion-icon>
+                    <p class="body-sm">
+                      Building robust server-side logic and RESTful APIs using
+                      Node.js and Python, with scalable and secure architecture
+                      design.
+                    </p>
+                  </div>
                 </div>
+              </li>
 
-                <div>
-                  <h3 class="card-title title-sm">SEO Marketing</h3>
+              <li class="card-container">
+                <div
+                  class="card card-md"
+                  style="background-color: hsl(19, 97%, 82%)"
+                >
+                  <div class="card-media">
+                    <ion-icon
+                      name="server-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </div>
 
-                  <p class="body-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                  </p>
+                  <div>
+                    <h3 class="card-title title-sm">Database & ETL</h3>
+
+                    <p class="body-sm">
+                      Designing efficient databases and data pipelines using
+                      PostgreSQL, MySQL, and MongoDB to keep your data clean and
+                      ready.
+                    </p>
+                  </div>
                 </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+    </main>
 
-              </div>
-            </li>
-
-            <li class="card-container">
-              <div class="card card-md" style="background-color: hsl(221, 100%, 79%)">
-
-                <div class="card-media">
-                  <ion-icon name="shapes-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <div>
-                  <h3 class="card-title title-sm">Web Design</h3>
-
-                  <p class="body-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="card-container">
-              <div class="card card-md" style="background-color: hsl(76, 39%, 72%)">
-
-                <div class="card-media">
-                  <ion-icon name="code-slash-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <div>
-                  <h3 class="card-title title-sm">Development</h3>
-
-                  <p class="body-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="card-container">
-              <div class="card card-md" style="background-color: hsl(245, 100%, 90%)">
-
-                <div class="card-media">
-                  <ion-icon name="globe-outline" aria-hidden="true"></ion-icon>
-                </div>
-
-                <div>
-                  <h3 class="card-title title-sm">SEO Marketing</h3>
-
-                  <p class="body-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
+    <!-- 
     - #FOOTER
   -->
 
-  <footer class="footer">
-    <div class="container">
+    <footer class="footer">
+      <div class="container">
+        <ul class="social-list">
+          <li>
+            <a
+              href="https://github.com/ayush1400"
+              class="social-link"
+            >
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/_ayush1400_/"
+              class="social-link"
+            >
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
 
-      <ul class="social-list">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ayush-kumar-yadav-bab416241"
+              class="social-link"
+            >
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
 
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-facebook"></ion-icon>
-          </a>
-        </li>
+          <li>
+            <a
+              href="https://in.pinterest.com/ayushyadavv1400/"
+              class="social-link"
+            >
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+        </ul>
 
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-twitter"></ion-icon>
-          </a>
-        </li>
+        <p class="text-center">&copy; 2026 copyright all right reserved</p>
+      </div>
+    </footer>
 
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </li>
-
-        <li>
-          <a href="#" class="social-link">
-            <ion-icon name="logo-pinterest"></ion-icon>
-          </a>
-        </li>
-
-      </ul>
-
-      <p class="text-center">&copy; 2022 copyright all right reserved</p>
-
-    </div>
-  </footer>
-
-
-
-
-
-  <!-- 
+    <!-- 
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!-- 
+    <!-- 
     - ionicon
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
